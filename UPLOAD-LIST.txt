@@ -1,0 +1,29 @@
+UPLOAD ALL OF THESE TO GITHUB:
+
+README.txt
+about.html
+apply.html
+assets
+careers.html
+companionship.html
+contact.html
+household-support.html
+index.html
+leadership.html
+locations.html
+medication-reminders.html
+mobility-assistance.html
+nutrition-support.html
+oversight-safety.html
+personal-care.html
+referrals.html
+request-care.html
+resources.html
+respite-care.html
+script.js
+services.html
+styles.css
+vercel.json
+washington-dc.html
+
+PLUS: HCS.mp4
