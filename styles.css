@@ -134,3 +134,58 @@
 .location-card .location-photo img{
   min-height:360px;
 }
+
+/* TIKTOK-STYLE VERTICAL VIDEO FIX */
+.video-card,
+.story-video{
+  width:min(420px,100%) !important;
+  aspect-ratio:9/16 !important;
+  min-height:0 !important;
+  margin-inline:auto !important;
+  background:#000 !important;
+  border-radius:24px !important;
+  overflow:hidden !important;
+}
+
+.video-card video,
+.story-video video{
+  width:100% !important;
+  height:100% !important;
+  aspect-ratio:9/16 !important;
+  object-fit:contain !important;
+  object-position:center center !important;
+  background:#000 !important;
+  display:block !important;
+}
+
+.video-banner{
+  grid-template-columns:auto 1fr !important;
+  align-items:center !important;
+}
+
+.video-banner video{
+  width:min(420px,100%) !important;
+  aspect-ratio:9/16 !important;
+  height:auto !important;
+  object-fit:contain !important;
+  background:#000 !important;
+  border-radius:24px !important;
+  margin-inline:auto !important;
+}
+
+@media (min-width:1101px){
+  .ceo-feature{
+    grid-template-columns:460px 1fr .55fr !important;
+  }
+  .story-grid{
+    grid-template-columns:.8fr 460px !important;
+  }
+}
+
+@media (max-width:1100px){
+  .video-card,
+  .story-video,
+  .video-banner video{
+    width:min(390px,100%) !important;
+  }
+}
